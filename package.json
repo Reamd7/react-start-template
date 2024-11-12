@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "tsx ./scripts/test.ts"
   },
   "keywords": [],
   "author": "",
@@ -12,5 +12,16 @@
   "engines": {
     "node": ">=20",
     "pnpm": ">=9"
+  },
+  "dependencies": {
+    "@tsconfig/create-react-app": "^2.0.5",
+    "@tsconfig/node20": "^20.1.4",
+    "@types/node": "^20",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3",
+    "zx": "^8.2.1"
+  },
+  "devDependencies": {
+    "@tsconfig/recommended": "^1.0.8"
   }
 }

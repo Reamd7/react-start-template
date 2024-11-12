@@ -2,5 +2,6 @@
  react 工程脚手架
 
 
-- [ ] monorepo pnpm workspace
-- 
+- [x] monorepo pnpm workspace
+- [x] typescript @tsconfig/xxx tsx 
+- [x] zx script
